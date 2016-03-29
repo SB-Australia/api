@@ -1,6 +1,7 @@
 # Shoeboxed Australia Api v2
 
 **The Shoeboxed Australia API is a full-featured RESTful web service that uses OAuth 2.0 for authentication.**
+
 *Note: The Shoeboxed Australia API is a fork of the Shoeboxed, Inc API and is identical as of 1 March 2016 aside from endpoints.*
 
 Everything is self-serve: All you need is a free Shoeboxed account to get started!
