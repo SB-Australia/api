@@ -22,7 +22,7 @@ If you write a library for our API, we'd love to add a link! Please email the re
 
 ## Is this api production ready?
 
-Your use of this API is at your own risk and absolutely no warranties or guarantees are expressed or implied.  Separate agreements providing SLA and preferential pricing are available.  Please [contact us](mail-to:sales@team.shoeboxed.com.au) for more information.
+Your use of this API is at your own risk and absolutely no warranties or guarantees are expressed or implied.  Separate agreements providing SLA and preferential pricing are available.  Please contact us on sales@team.shoeboxed.com.au for more information.
 
 We are 'dogfooding' this API. All Shoeboxed Australia functionality uses this API, so it is in *everyone's* interests to minimize breaking changes.
 
