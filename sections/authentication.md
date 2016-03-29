@@ -15,8 +15,8 @@ We can enable other Oauth 2 grant types upon request. Please email api@team.shoe
 
 Direct the user to the OAuth 2.0 authorization endpoint:
 
-    https://id.shoeboxed.com/oauth/authorize?client_id=<your client id>&response_type=code&scope=all&redirect_uri=<your site>&state=<CSRF token>
-    
+    https://id.sbaustralia.com/oauth/authorize?client_id=<your client id>&response_type=code&scope=all&redirect_uri=<your site>&state=<CSRF token>
+
 We strongly recommend you use the state parameter to prevent cross-site request forgery (CSRF). You should generate a random CSRF token, store a copy in user's session, then verify it (see below) to prevent forgery.
 
 Once the user has authorized your app, they’ll be sent to your redirect URI, with a few query parameters:
@@ -31,7 +31,7 @@ Your app should verify the CSRF token matches the one you previously generated a
 To exchange the authorization code for an access token, you need to do a server-side POST to the /token endpoint:
 
 ```bash
-$ curl -v -XPOST https://id.shoeboxed.com/oauth/token \
+$ curl -v -XPOST https://id.sbaustralia.com/oauth/token \
     -d code=<authorization code> \
     -d grant_type=authorization_code \
     --data-urlencode redirect_uri='<your site>' \
@@ -57,7 +57,7 @@ later.
 ### Step 2a: Using a refresh token to get a new access token
 
 ```bash
-$ curl -v -XPOST https://id.shoeboxed.com/oauth/token \
+$ curl -v -XPOST https://id.sbaustralia.com/oauth/token \
     -d grant_type=refresh_token \
     -d client_id=<your client id> \
     -d client_secret=<your client secret> \
@@ -83,4 +83,4 @@ Now that you have an access token, you can call any method in the v2 API by just
 
 As an example, here's how to use curl to get information about the user:
 
-    curl https://api.shoeboxed.com/v2/user -X GET -H 'Authorization: Bearer <user access token>'
+    curl https://api.sbaustralia.com/v2/user -X GET -H 'Authorization: Bearer <user access token>'
