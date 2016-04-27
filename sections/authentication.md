@@ -7,7 +7,7 @@ Shoeboxed supports two Oauth 2.0 grant types:
   - the "code grant" which is the standard grant type for apps with a server-side component like web apps.
   - the "implicit grant" flow for you if you are creating a client-side app such as a mobile app or browser extension
 
-We can enable other Oauth 2 grant types upon request. Please email api@team.shoeboxed.com
+We can enable other Oauth 2 grant types upon request. Please email help@team.shoeboxed.com.au
 
 ## Using the code grant
 
