@@ -18,7 +18,7 @@ The Shoeboxed v2 API empowers developers to:
 
 Our API is only offered at this time as a HTTP web service. We do not provide native libraries or wrappers.
 
-If you write a library for our API, we'd love to add a link! Please email the repo url to api@team.shoeboxed.com.au
+If you write a library for our API, we'd love to add a link! Please email the repo url to help@team.shoeboxed.com.au
 
 ## Is this api production ready?
 
@@ -100,7 +100,7 @@ the original notification at which we will attempt to retry.
 
 Feature requests? Bugs? Please file a Github issue.
 
-We are also available over email: api@team.shoeboxed.com
+We are also available over email: help@team.shoeboxed.com.au
 
 # API Terms of Service
 
