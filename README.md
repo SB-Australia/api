@@ -96,6 +96,13 @@ at which we will retry the notification are `2^n * 90`, where `n` is the number
 of retries between 1 and 10; the resulting number is the number of seconds after
 the original notification at which we will attempt to retry.
 
+## Single Sign On
+
+If you are creating multiple Shoeboxed Australia accounts, then you can also
+provide access to those accounts to your users without requiring them to log
+in separately to Shoeboxed Australia.  For more information see
+the [Single Sign On documentation](sections/authentication.md)
+
 # Support
 
 Feature requests? Bugs? Please file a Github issue.
