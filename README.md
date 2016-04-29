@@ -101,7 +101,7 @@ the original notification at which we will attempt to retry.
 If you are creating multiple Shoeboxed Australia accounts, then you can also
 provide access to those accounts to your users without requiring them to log
 in separately to Shoeboxed Australia.  For more information see
-the [Single Sign On documentation](sections/authentication.md)
+the [Single Sign On documentation](sections/SSO.md)
 
 # Support
 
